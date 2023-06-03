@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: crimson;
+        font-family: sans-serif;
+      }
+      div {
+        background-color: white;
+        width: 300px;
+        height: 274px;
+        margin-left: 450px;
+        margin-top: 200px;
+        padding: 40px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        border: none;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        background-color: ghostwhite;
+      }
+      form {
+        margin-top: -30px;
+      }
+      button {
+        width: 100%;
+        border: none;
+        background-color: crimson;
+        padding: 15px;
+        cursor: pointer;
+      }
+      h1 {
+        text-align: center;
+      }
+      #para {
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <h1 title="Log In page">LOGIN</h1>
+        <p>Please enter your credentials to login.</p>
+        <input
+          type="text"
+          placeholder="username"
+          title="please enter username"
+        /><br /><br />
+        <input
+          type="password"
+          placeholder="password"
+          title="please enter password"
+        /><br /><br />
+        <button title="log in acount">LOGIN</button><br />
+        <p title="not register" id="para">
+          Not register?<a href="#" title="create an acount">Create an acount</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
